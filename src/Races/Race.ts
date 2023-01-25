@@ -2,11 +2,11 @@ export default abstract class Race {
   constructor(private _name: string, private _dexterity: number) {}
 
   get name(): string {
-    return this.name;
+    return this._name;
   }
 
   get dexterity(): number {
-    return this.dexterity;
+    return this._dexterity;
   }
 
   public static createdRacesInstances(): number {
